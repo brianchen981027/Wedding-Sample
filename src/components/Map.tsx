@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 const Map = () => {
   return (
@@ -19,9 +19,9 @@ const Map = () => {
       />
       <div className="flex flex-col mt-[5%] w-[75vw]">
         <div className="mb-8">
-          <h4 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-4">
+          <h5 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-4">
             搭乘公車
-          </h4>
+          </h5>
           <p className="text-black/60">
             請搭乘下列公車至「
             <span className="text-mapContent font-bold">大直美堤花園一站</span>
@@ -33,9 +33,9 @@ const Map = () => {
           </p>
         </div>
         <div className="mb-8">
-          <h4 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-3">
+          <h5 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-3">
             搭乘捷運
-          </h4>
+          </h5>
           <h5 className="text-primary text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-3">
             捷運 → 公車
           </h5>
@@ -60,9 +60,9 @@ const Map = () => {
           </p>
         </div>
         <div>
-          <h4 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-4">
+          <h5 className="text-primary text-[20px] sm:text-[24px] md:text-[28px] font-bold mb-4">
             自行開車前往
-          </h4>
+          </h5>
           <h5 className="text-primary text-[14px] sm:text-[16px] md:text-[18px] font-semibold mb-3">
             開車路線
           </h5>

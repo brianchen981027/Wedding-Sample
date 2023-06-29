@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
-import { CloseOutlined, MenuOutlined } from "@ant-design/icons";
-import { Drawer } from "antd";
+import { CloseOutlined, MenuOutlined } from '@ant-design/icons';
+import { Drawer } from 'antd';
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -24,19 +24,19 @@ const Header = () => {
       {/* Right */}
       <ul className="hidden sm:flex sm:items-center sm:justify-end">
         <li className="headerText">
-          <h3 onClick={() => handleClickScroll("info")}>Info</h3>
+          <h4 onClick={() => handleClickScroll("info")}>Info</h4>
         </li>
         <li className="headerText">
-          <h3 onClick={() => handleClickScroll("story")}>Story</h3>
+          <h4 onClick={() => handleClickScroll("story")}>Story</h4>
         </li>
         <li className="headerText">
-          <h3 onClick={() => handleClickScroll("details")}>Details</h3>
+          <h4 onClick={() => handleClickScroll("details")}>Details</h4>
         </li>
         <li className="headerText">
-          <h3 onClick={() => handleClickScroll("map")}>Map</h3>
+          <h4 onClick={() => handleClickScroll("map")}>Map</h4>
         </li>
         <li className="headerText">
-          <h3 onClick={() => handleClickScroll("marquee")}>Marquee</h3>
+          <h4 onClick={() => handleClickScroll("marquee")}>Marquee</h4>
         </li>
       </ul>
 
@@ -77,7 +77,7 @@ const Header = () => {
       >
         <ul className="flex flex-col items-center">
           <li className="w-full rounded-md hover:bg-drawerHoverBg">
-            <h3
+            <h4
               className="py-2 hover:text-drawerHoverText"
               onClick={() => {
                 setOpen(false);
@@ -85,10 +85,10 @@ const Header = () => {
               }}
             >
               Wedding Info
-            </h3>
+            </h4>
           </li>
           <li className="w-full rounded-md hover:bg-drawerHoverBg">
-            <h3
+            <h4
               className="py-2 hover:text-drawerHoverText"
               onClick={() => {
                 setOpen(false);
@@ -96,10 +96,10 @@ const Header = () => {
               }}
             >
               Story
-            </h3>
+            </h4>
           </li>
           <li className="w-full rounded-md hover:bg-drawerHoverBg">
-            <h3
+            <h4
               className="py-2 hover:text-drawerHoverText"
               onClick={() => {
                 setOpen(false);
@@ -107,10 +107,10 @@ const Header = () => {
               }}
             >
               Details
-            </h3>
+            </h4>
           </li>
           <li className="w-full rounded-md hover:bg-drawerHoverBg">
-            <h3
+            <h4
               className="py-2 hover:text-drawerHoverText"
               onClick={() => {
                 setOpen(false);
@@ -118,10 +118,10 @@ const Header = () => {
               }}
             >
               Map
-            </h3>
+            </h4>
           </li>
           <li className="w-full rounded-md hover:bg-drawerHoverBg">
-            <h3
+            <h4
               className="py-2 hover:text-drawerHoverText"
               onClick={() => {
                 setOpen(false);
@@ -129,7 +129,7 @@ const Header = () => {
               }}
             >
               Marquee
-            </h3>
+            </h4>
           </li>
         </ul>
       </Drawer>
